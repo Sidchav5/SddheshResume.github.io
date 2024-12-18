@@ -1,0 +1,290 @@
+/* Reset styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body background for better aesthetics */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+/* Horizontal Blue Strip */
+.blue-strip {
+    width: 100%;
+    height: 250px;
+    background-color: #3d81b2; /* Blue color */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 50px;
+    color: white;
+}
+
+/* Vertical Brown Strip */
+.brown-strip {
+    width: 280px;
+    height: 1300px;
+    background-color: #e4e4e4;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 20px;
+}
+
+/* Circular Photo */
+.photo {
+    background-image: url("Siddhesh.jpg");
+    height: 180px;
+    width: 180px;
+    background-size: cover;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 50%; /* Circular shape */
+    border: 5px solid white; /* White border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Intro Name */
+.intro-name {
+    margin-left: 300px;
+    text-align: left;
+
+}
+
+.intro-head {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* Contact Section */
+.contact {
+    margin-right: 50px;
+    padding-top: 30px;
+}
+
+
+/* White Underline */
+.underline {
+    width: 178px;
+    height: 2px;
+    background-color: white;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Links Styling and Hover Effects */
+.contact a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.contact a:hover {
+    color: #ffdd57; /* Yellow hover effect */
+    text-decoration: underline;
+}
+
+/* Improved spacing */
+.contact p {
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .blue-strip {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .intro-name, .contact {
+        margin: 0;
+        text-align: center;
+    }
+
+    .brown-strip {
+        display: none; /* Hide brown strip for small screens */
+    }
+}
+
+.soft-skills {
+    margin-top: 80px;
+}
+
+.soft-head {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #3d81b2;
+    margin-left: 25px;
+}
+
+.skills {
+    margin-top: 10px;
+
+}
+.skills li {
+    color: black;
+    font-size: 0.90rem;
+    margin-left: 18px;
+    padding: 5px
+}
+
+.underline-soft {
+    width: 225px;
+    height: 2px;
+    background-color: white;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+
+.tech-skills {
+    margin-top: 50px;
+}
+
+.lang {
+    margin-top: 50px;
+}
+
+/** profile**/
+.profile {
+    height: 180px;
+    color: #3d81b2;
+    width: 1200px;
+    
+}
+
+.profile-head {
+   margin-left: 400px;
+   padding-top: 50px;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 20px;
+   font-weight: 700;
+}
+
+
+.underline-profile {
+    width: 500px;
+    height: 2px;
+    background-color: rgb(174, 170, 170);
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.profile-intro {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 15px;
+    color: black;
+}
+
+/** education**/
+.education {
+    height: 250px;
+    color: #3d81b2;
+    width: 1200px;
+}
+
+.education-head {
+    margin-left: 400px;
+    padding-top: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.para{
+    padding-top: 8px;
+    font-size: 0.85rem;
+    color: black;
+}
+
+.college {
+    margin-top: 10px;
+    padding-top: 8px;
+    font-size: 0.85rem;
+}
+
+.name {
+    font-size: 1rem;
+    padding-top: 10px;
+}
+
+.graduation {
+    margin-top: 10px;
+    padding-top: 8px;
+    font-size: 0.85rem;
+}
+
+/** Projects**/
+.projects {
+    height: 300px;
+    color: #3d81b2;
+    width: 100%;
+}
+
+.project-container {
+    display: flex;
+    margin-left: 400px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-right: 20px;
+}
+.project-head {
+    margin-left: 400px;
+    padding-top: 170px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.project-name {
+    font-size: 1rem;
+    padding-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.project-tools{
+    color: black;
+    font-size: 0.85rem;
+    margin-top: 8px;
+}
+
+.project-desc li {
+    font-size: 0.9rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    margin-top: 8px;
+}
+
+.project {
+    margin-top: 20px;
+}
+
+.project4 {
+    margin-top: 20px;
+    margin-right: 45px;
+}
+
+.experience {
+    margin-top: 50px;
+}
+
+.items li {
+    color: black;
+    font-size: 0.90rem;
+    margin-left: 18px;
+    padding: 5px
+}
